@@ -1,0 +1,34 @@
+<div class="row row-2">
+	<h2> All Products </h2>
+<select>
+	<option>SHT</option>
+	<option>SHT</option>
+	<option>SHT</option>
+	<option>SHT</option>
+	<option>SHT</option>
+</select>
+</div>
+
+.page-btn
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4</span>
+<span>&#8594</span>
+
+
+ &#8594
+
+-all products---
+
+.row-2 {
+	justify-content: space-between;
+	margin: 100px auto 50px;	
+}
+select {
+	border: 1px solod #ffcolor;
+	padding: 5px
+}
+select:focus {
+	outline: none;
+}
