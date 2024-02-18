@@ -352,10 +352,44 @@ color: #eed25d;
     transform: translateY(-5px);
 }
 
-.btn.btn2{
-    display: inline-block;
-    background: #eed25d;
+.btn-btn2 {
+    display: block;
+    margin-top: 10px;
+    width: fit-content;
+    border: 1px solid #eed25d;
+    padding: 10px 18px;
+    border-radius: 6px; 
+    text-decoration: none;
+    color: #fff;    
+    transition: background 0.5s;
 }
+.btn-btn2:hover {
+    background-color: rgba(241, 190, 7, 0.692);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #eed25d;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+  /* Hover Effects */
+  .submit-button:hover {
+    background-color: rgba(241, 190, 7, 0.692);
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
 .contact-right form {
     width: 100%;
 }
